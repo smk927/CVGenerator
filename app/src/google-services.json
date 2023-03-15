@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "466023039703",
+    "project_id": "mychat-eea61",
+    "storage_bucket": "mychat-eea61.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466023039703:android:ce75a1ba67500b8039a692",
+        "android_client_info": {
+          "package_name": "com.example.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466023039703-04hp1kvpl5hboid4i9onbdj8rnj1n2oc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVYfCHLKBKdB2qWMVr5OUaxwNoFLndwRU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "466023039703-04hp1kvpl5hboid4i9onbdj8rnj1n2oc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

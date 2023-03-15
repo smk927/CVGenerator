@@ -1,0 +1,273 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#FFFFFF">
+
+        <!-- Header Section -->
+
+            <TextView
+                android:id="@+id/nameTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#0047AB"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/titleTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#333333"
+                android:gravity="center"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#0047AB"
+                android:layout_marginTop="16dp"/>
+
+
+
+        <!-- Contact Information Section -->
+        <TextView
+            android:id="@+id/contactTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact Information"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#0047AB"
+            android:paddingTop="18dp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/emailTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:textSize="18sp"
+            android:textColor="#333333"
+            android:drawableLeft="@drawable/ic_email"
+            android:drawablePadding="8dp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/phoneTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#333333"
+            android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+            android:drawablePadding="8dp"
+            android:paddingBottom="16dp"/>
+        <TextView
+            android:id="@+id/addTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#333333"
+            android:drawableLeft="@drawable/ic_baseline_location_on_24"
+            android:drawablePadding="8dp"
+            android:paddingBottom="16dp"/>
+
+        <!-- Summary Section -->
+        <TextView
+            android:id="@+id/summary_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Summary"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#0047AB"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/summaryTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#333333"
+            android:paddingBottom="16dp"/>
+
+
+        <!-- Education Section -->
+        <TextView
+            android:id="@+id/education_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Education"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#0047AB"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/degreeTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#333333"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/collegeTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#333333"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/locationTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#333333"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/dateTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#333333"
+            android:paddingBottom="16dp"/>
+
+        <!-- Experience Section -->
+        <TextView
+            android:id="@+id/experience_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Experience"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#0047AB"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/jobTitleTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#333333"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/companyTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#333333"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/jobDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#333333"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/jobDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#333333"
+            android:paddingBottom="16dp"/>
+
+        <!-- Skills Section -->
+        <TextView
+            android:id="@+id/skills_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Skills"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#0047AB"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/skill1Tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#333333"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/skill2Tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#333333"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/skill3Tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#333333"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/projectsTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Projects"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#0047AB"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/project1Tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#333333"
+            android:paddingBottom="8dp"/>
+        <TextView
+            android:id="@+id/project2Tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#333333"
+            android:paddingBottom="8dp"/>
+
+<!--        <TextView-->
+<!--            android:id="@+id/achievements_textview"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Achievements"-->
+<!--            android:textSize="24sp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textColor="#0047AB"-->
+<!--            android:paddingTop="16dp"-->
+<!--            android:paddingBottom="8dp"/>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/achievementsTv"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textColor="#333333"-->
+<!--            android:paddingBottom="8dp"/>-->
+
+
+    </LinearLayout>
+</ScrollView>
